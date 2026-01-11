@@ -164,6 +164,18 @@ public class JFrameDashboardSupperAdmin extends JFrame {
 			jpanelMain.revalidate();
 			jpanelMain.repaint();
 		});
+		
+		// Sales Report button
+		JButton jbuttonSalesReport = createMenuButton("Sales Report", "/resources/salereport.png");
+		jbuttonSalesReport.addActionListener(e -> {
+		    clearScreen();
+		    JPanelSalesReport panelSalesReport = new JPanelSalesReport();
+		    jpanelMain.add(panelSalesReport, BorderLayout.CENTER);
+		    panelSalesReport.setVisible(true);
+		    jpanelMain.revalidate();
+		    jpanelMain.repaint();
+		});
+		panel.add(jbuttonSalesReport);
 
 		// Manage Bill
 		JButton jbuttonManageBill = createMenuButton("Bill Management", "/resources/icon-bill-management.png");
