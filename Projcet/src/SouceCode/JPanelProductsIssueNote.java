@@ -622,7 +622,7 @@ public class JPanelProductsIssueNote extends JPanel {
 					document.add(table);
 					document.close();
 
-					JOptionPane.showMessageDialog(null, "PDF file exported successfully: " + fileName);
+//					JOptionPane.showMessageDialog(null, "PDF file exported successfully: " + fileName);
 
 					java.awt.Desktop.getDesktop().open(new java.io.File(fileName));
 
@@ -795,7 +795,7 @@ public class JPanelProductsIssueNote extends JPanel {
 					fos.close();
 					workbook.close();
 
-					JOptionPane.showMessageDialog(null, "Excel file exported successfully: " + fileName);
+//					JOptionPane.showMessageDialog(null, "Excel file exported successfully: " + fileName);
 					java.awt.Desktop.getDesktop().open(new java.io.File(fileName));
 
 				} catch (Exception ex) {
