@@ -224,15 +224,7 @@ public class JFrameLogin extends JFrame {
 			Staff staff = staffModel.findByUsername(username);
 			Session.currentStaff = staff;
 
-			JDialog successDialog = new JDialog(this, true);
-			successDialog.setUndecorated(true);
-
-			JPanelSuccess panel = new JPanelSuccess();
-			successDialog.getContentPane().add(panel);
-			successDialog.pack();
-			successDialog.setLocationRelativeTo(this);
-
-			successDialog.setVisible(true);
+			JOptionPane.showMessageDialog( this, "Login successful!", "Success", JOptionPane.INFORMATION_MESSAGE );
 
 			switch (staff.getIdPosition()) {
 			case 1:
