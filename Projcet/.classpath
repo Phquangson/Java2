@@ -6,5 +6,40 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/lib/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-io-2.21.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/curvesapi-1.07.jar"/>
+	<classpathentry kind="lib" path="src/lib/itextpdf-5.5.13.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/jakarta.activation-2.0.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jakarta.xml.bind-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jbcrypt-0.4 (2).jar"/>
+	<classpathentry kind="lib" path="src/lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="src/lib/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="src/lib/jfreechart-1.0.19-experimental.jar"/>
+	<classpathentry kind="lib" path="src/lib/jfreechart-1.0.19-swt.jar"/>
+	<classpathentry kind="lib" path="src/lib/jfreesvg-2.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/jgoodies-common-1.2.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/jgoodies-looks-2.4.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/junit-4.6.jar"/>
+	<classpathentry kind="lib" path="src/lib/log4j-api-2.18.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/log4j-core-2.18.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/mysql-connector-java-8.0.29.jar"/>
+	<classpathentry kind="lib" path="src/lib/poi-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/poi-examples-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/poi-excelant-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/poi-javadoc-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/poi-ooxml-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/poi-ooxml-full-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/poi-ooxml-lite-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/poi-scratchpad-5.2.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="src/lib/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/xmlbeans-5.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
